@@ -10,3 +10,6 @@ function MyApp({ Component, pageProps }) {
     </ThemeProvider>
   )
 }
+
+
+export default MyApp;
