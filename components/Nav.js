@@ -26,14 +26,14 @@ export default function Nav() {
     }
   };
   return (
-    <div className="px-10 md:px-20 lg:px-28">
+    <div className="px-10 md:px-20 lg:px-28 dark:bg-gray-800 dark:text-gray-100 bg-gray-50 text-gray-700">
       <Head>
-        <title>Md. Rezuwan Hassan</title>
+        <title>Mohammed Abu Hanifa</title>
       </Head>
       <nav className="flex flex-col md:flex-row justify-between font-semibold">
         <div className="my-10">
           <div className="flex justify-between items-center">
-            <Link href={"/"}>Rezuwan Hassan</Link>
+            <Link href={"/"}>Abu Hanifa</Link>
             <div
               className="md:hidden cursor-pointer"
               onClick={() => setMenu(!menu)}

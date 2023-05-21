@@ -1,15 +1,18 @@
-import '@/styles/globals.css';
-import { ThemeProvider } from 'next-themes';
-import NextNProgress from 'nextjs-progressbar';
+import "@/styles/globals.css";
+import { ThemeProvider } from "next-themes";
+import { Outfit } from "next/font/google";
 
-function MyApp({ Component, pageProps }) {
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+export default function App({ Component, pageProps }) {
   return (
-    <ThemeProvider>
-      <NextNProgress />
-      <Component {...pageProps} />
+    <ThemeProvider enableSystem={true} attribute="class">
+      <main className={outfit.className}>
+        <Component {...pageProps} />
+      </main>
     </ThemeProvider>
-  )
+  );
 }
-
-
-export default MyApp;
