@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import "@/styles/globals.css";
 import { ThemeProvider } from "next-themes";
 import { Outfit } from "next/font/google";
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
       <main className={outfit.className}>
         <Component {...pageProps} />
       </main>
+      <Footer/>
     </ThemeProvider>
   );
 }

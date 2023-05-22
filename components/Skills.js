@@ -28,9 +28,9 @@ import {
 const Skills = () => {
   return (
     <div>
-      <h2 className="text-center text-4xl font-bold my-32">Skills </h2>
+      <h2 className="text-center text-4xl font-bold mt-10">Skills </h2>
       <div className="mt-20">
-        <div className="xl:px-60 mx-auto sm:w-full grid grid-cols-4 text-6xl sm:text-[50px] place-items-center gap-10 sm:gap-20">
+        <div className="xl:px-60 mx-auto sm:w-full grid grid-cols-4 text-6xl sm:text-[50px] place-items-center gap-10 sm:gap-20 py-10">
           <span className=" hover:text-sky-600">
             <SiPython />
           </span>
