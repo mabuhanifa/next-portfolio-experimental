@@ -9,5 +9,5 @@
 } */
 
 .bg_style {
-  @apply bg-[#222222] h-20 w-20 md:h-40 md:w-40 flex justify-center items-center rounded-3xl border-2 border-[#2b2b2b];
+  @apply dark:bg-[#222222] bg-white h-20 w-20 md:h-40 md:w-40 flex justify-center items-center rounded-3xl border-2 dark:border-[#2b2b2b];
 }
