@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* :root {
+  --bg: #161616;
+  --dif: #1a1a1a;
+  --border: #242424;
+} */
