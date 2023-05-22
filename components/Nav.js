@@ -28,12 +28,12 @@ export default function Nav() {
   return (
     <div className="px-10 md:px-20 lg:px-28 ">
       <Head>
-        <title>Mohammed Abu Hanifa</title>
+        <title>Md. Rezuwan Hassan</title>
       </Head>
       <nav className="flex flex-col md:flex-row justify-between font-semibold">
         <div className="my-10">
           <div className="flex justify-between items-center">
-            <Link href={"/"}>Abu Hanifa</Link>
+            <Link href={"/"}>Rezuwan Hassan</Link>
             <div
               className="md:hidden cursor-pointer"
               onClick={() => setMenu(!menu)}
@@ -48,7 +48,7 @@ export default function Nav() {
         </div>
         <div
           className={
-            "hidden md:flex flex-col md:flex-row justify-between items-center gap-10"
+            "hidden md:flex flex-col md:flex-row justify-between items-center gap-10 font-light"
           }
         >
           <Link href={"/"}>Home</Link>
@@ -69,7 +69,7 @@ export default function Nav() {
         <div
           className={
             menu
-              ? "md:hidden flex flex-col md:flex-row justify-between items-center gap-10"
+              ? "md:hidden flex flex-col md:flex-row justify-between items-center gap-10 font-light"
               : "hidden"
           }
         >
