@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
       <main className={outfit.className}>
         <Component {...pageProps} />
       </main>
-      <Footer/>
+      <Footer />
     </ThemeProvider>
   );
 }
